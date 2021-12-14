@@ -1,0 +1,184 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=poppins:400,500,700");
+@import url(/home/zahra/رومیزی/portfolio/project/digikalaa/icons.css);
+* {
+  direction: rtl;
+}
+
+.row {
+  width: 100%;
+}
+
+header {
+  background-color: #f3f3ec;
+}
+
+header .dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 3;
+  background-color: #ebe9e1;
+  min-width: 160px;
+  width: 100%;
+  padding-right: 10px;
+}
+
+header .list:hover {
+  background-color: #8f8c8c;
+  padding-left: 20px;
+  width: 150px;
+}
+
+header .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header .row {
+  padding: 10px 0;
+}
+
+header .row .text {
+  border: 1px solid #aaaaaa;
+  padding: 5px 0;
+  margin-top: 5px;
+}
+
+header .row svg {
+  color: #8d8c8c;
+  margin-top: 5px;
+}
+
+header nav ul {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  list-style: none;
+}
+
+@media screen and (min-width: 991.98px) {
+  header nav ul .location {
+    margin-right: 320px;
+  }
+  header nav ul .location :hover {
+    background-color: #8f8c8c;
+    -webkit-transition: 0.9s;
+    transition: 0.9s;
+  }
+}
+
+header nav ul li {
+  padding: px 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: #8f8c8c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (min-width: 991.98px) {
+  header {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+  }
+}
+
+main {
+  padding: 0 0 20px 20px;
+}
+
+main .pic-two-row {
+  width: 300px;
+}
+
+@media screen and (min-width: 991.98px) {
+  main {
+    margin-top: 155px;
+  }
+}
+
+main .btn-1 {
+  width: 150px;
+  height: 50px;
+  color: green;
+  border: 1px solid green;
+  font-weight: bold;
+}
+
+main a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: #8f8c8c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main .larg-pic {
+  width: 450px;
+  height: 250px;
+}
+
+main #list-right {
+  padding: 10px 0 10px 0;
+  width: 100%;
+}
+
+main #list-right .btn-all {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+main #list-right a {
+  color: #8f8c8c;
+}
+
+main #left-main .main-left-pic1 {
+  border-top: solid 2px #6bb927;
+  width: 100%;
+}
+
+main #list-left-main ul li {
+  padding: 2px 0;
+  text-decoration: none;
+}
+
+main #list-left-main ul li img {
+  width: 30px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+main #end-food .card-img-top {
+  background-color: red;
+  width: 200px;
+  height: 150px;
+}
+
+footer {
+  background-color: #eceff1;
+}
+
+footer .card-img-top {
+  width: 70px;
+  height: 60px;
+}
+
+footer .f-pic {
+  width: 30px;
+  height: 30px;
+}
+
+footer .f-pic3 {
+  width: 150px;
+  height: 75px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Bootstrap 04-07 </title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <style>
+        .custom-select {
+            background-position: 15px;
+        }
+        .custom-control-label::after, .custom-control-label::before {
+            left: unset;
+        }
+    </style>
+</head>
+<body class="text-right" dir="rtl">
+
+    <div class="container mt-4">
+        <h2> کمپوننت ها : <span class="text-primary"> Forms </span> </h2>
+        <hr>
+
+        <form>
+            <div class="row">
+                <div class="form-group col-md-3">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputState">State</label>
+                    <select id="inputState" class="custom-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="form-group col-md-3">
+                    <div class="form-check">
+                        <input class="form-check-input mr-2" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label mr-4" for="defaultCheck1">
+                            Default checkbox
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group col-md-3">
+                    <div class="custom-control custom-radio mr-sm-2">
+                        <input type="radio" class="custom-control-input" id="xxx">
+                        <label class="custom-control-label" for="xxx">
+                            <span class="mr-4">Remember my preference</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group col-md-3">
+                    <div class="custom-control custom-checkbox mr-sm-2">
+                        <input type="checkbox" class="custom-control-input" id="yyy">
+                        <label class="custom-control-label" for="yyy">
+                            <span class="mr-4">Remember my preference</span>
+                        </label>
+                    </div>
+                </div>
+                <hr class="w-100">
+                <div class="col-md-2 mx-auto">
+                    <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

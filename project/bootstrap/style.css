@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:400,500,700');
+@import "icons.css";
+nav{
+    background-color: rgb(111, 66, 193);
+}
+.glyphicon-bold{
+   border: 1px solid;
+    color: rgb(204, 200, 200);
+}
+.row{
+    width: 100%;
+    margin-top: 40px;
+}
+#paragarf{
+    font-size: 23px;
+    color: rgb(63, 62, 62);
+}
+.btn-primary{
+    background-color: rgb(111, 66, 193);
+}
+.test{
+    border-left: 1px solid rgb(139, 133, 133);
+}
+#foot{
+    width: 100%;
+}
+/* large screen */ 
+@media only screen and (max-width: 1200px) {
+  
+        #pic{
+           width: 500px;
+           height: 200px;
+        }
+}
+/* meduim screen */
+@media only screen and (max-width: 900px) {
+  
+    #pic{
+       width: 180px;
+       height: 200px;
+    }
+}
+/* small screen */
+@media only screen and (max-width: 600px) {
+  
+    #pic{
+       width: 150px;
+       height: 200px;
+      
+}
+}
+
+  

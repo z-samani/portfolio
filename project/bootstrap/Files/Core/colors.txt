@@ -1,0 +1,10 @@
+red : #FF0E3B
+blue : #3C098D
+dark blue : #190A49
+
+
+light : #eef3f6
+
+
+
+dark : #0F0432;

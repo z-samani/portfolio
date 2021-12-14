@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Bootstrap 04-14 </title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <style>
+        .modal-header .close {
+            margin-left : -1rem;
+            margin-right : auto;
+        }
+    </style>
+
+</head>
+<body class="text-right" dir="rtl">
+
+    <div class="container mt-4 pb-5">
+        <h2> کمپوننت ها : <span class="text-primary"> Modal </span> </h2>
+        <hr>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#gholi">
+            باز کردم مدال
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="gholi" tabindex="-1">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"> عنوان مدال </h5>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        متن مدال متن مدال متن مدال متن مدال متن مدال متن مدال متن مدال متن مدال متن مدال متن مدال متن مدال
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger ml-2" data-dismiss="modal"> بستن </button>
+                        <button type="button" class="btn btn-primary"> دکمه تایید </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

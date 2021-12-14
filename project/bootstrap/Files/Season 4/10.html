@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Bootstrap 04-10 </title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <style>
+
+        .input-group > .input-group-prepend + .form-control {
+            border-radius : 0 !important;
+            border-top-left-radius : 5px !important;
+            border-bottom-left-radius : 5px !important;
+        }
+
+        .input-group > .form-control {
+            border-radius : 0;
+            border-top-right-radius : 5px !important;
+            border-bottom-right-radius : 5px !important;
+        }
+
+        .input-group-prepend > .input-group-text {
+            border-radius: 0;
+            border-top-right-radius : 5px !important;
+            border-bottom-right-radius : 5px !important;
+        }
+
+        .input-group-append > .input-group-text {
+            border-radius: 0;
+            border-top-left-radius : 5px !important;
+            border-bottom-left-radius : 5px !important;
+        }
+    </style>
+
+</head>
+<body class="text-right" dir="rtl">
+
+    <div class="container mt-4">
+        <h2> کمپوننت ها : <span class="text-primary"> Input group </span> </h2>
+        <hr>
+
+        <form>
+
+            <div class="row my-3">
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> Prepend </span>
+                        </div>
+                        <input type="text" placeholder="نام کاربری" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <input type="text" placeholder="نام کاربری" class="form-control">
+                        <div class="input-group-append">
+                            <span class="input-group-text"> Append </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

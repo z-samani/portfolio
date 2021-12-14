@@ -1,0 +1,329 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=poppins:400,500,700");
+@import url(/home/zahra/رومیزی/portfolio/project/material/main/icons.css);
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 40px;
+  background-color: #141313;
+}
+
+header #size-small {
+  background-color: black;
+  z-index: 2;
+}
+
+header #size-small .small-1 {
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 767px) {
+  header {
+    height: 55px;
+  }
+  header .text-2 a {
+    text-align: center;
+    padding: 15px 5px 0px;
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  header {
+    height: 55px;
+  }
+  header .text-2 a {
+    text-align: center;
+    padding: 2px 5px 0px;
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+  }
+}
+
+@media screen and (min-width: 979px) {
+  header {
+    height: 55px;
+  }
+  header .text-2 a {
+    text-align: center;
+    padding: 15px 10px 0px;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+header .logo {
+  height: 20px;
+}
+
+header .logo a {
+  padding-bottom: 60px;
+}
+
+header #text ul:hover a {
+  color: #aaa9a3;
+}
+
+header #text ul:hover a:hover {
+  color: #e2e2bf;
+}
+
+header .brand {
+  color: #fff;
+  position: relative;
+  bottom: 9px;
+}
+
+header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+nav {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #c9ad21;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav ul a:hover:after {
+  -webkit-transform: translateX(-50%) scaleX(1);
+  transform: translateX(-50%) scaleX(1);
+}
+
+nav ul a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%) scaleX(0);
+  -webkit-transform: translateX(-50%) scaleX(0);
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(245, 240, 240, 0.9);
+  -webkit-transition: transform 250ms;
+  -webkit-transition: -webkit-transform 250ms;
+  transition: -webkit-transform 250ms;
+  transition: transform 250ms;
+  transition: transform 250ms, -webkit-transform 250ms;
+}
+
+nav ul a {
+  position: relative;
+  padding: 25px 50px 25px 0;
+  color: #fff;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+main {
+  width: 100%;
+  margin-top: 55px;
+}
+
+.nav-1 {
+  position: fixed;
+  top: 10px;
+  width: 100%;
+}
+
+.nav-1 a {
+  margin-left: 5px;
+  padding-left: 0;
+}
+
+.text-one {
+  position: relative;
+  bottom: 30px;
+  margin-left: 39px;
+}
+
+.card-title {
+  position: relative;
+  bottom: 15px;
+  right: 55px;
+  margin-left: 50px;
+}
+
+.bb {
+  position: relative;
+  width: 290px;
+  height: 60px;
+}
+
+.mosbat {
+  position: relative;
+  bottom: 30px;
+  left: 45px;
+  color: black;
+}
+
+.bac-color {
+  height: 100px;
+  width: 290px;
+}
+
+.bac-color hr {
+  background-color: #366632;
+  height: 15px;
+}
+
+.f-card {
+  height: 65px;
+}
+
+#top-text .text-2 {
+  margin: 100px 0 5px 0;
+  color: black;
+  font-weight: 500;
+}
+
+#top-text .app-2 .text-2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#top-text .app-2 .text-5 {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+#top-text .text-5 {
+  margin-bottom: 80px;
+}
+
+#top-text .nav3 ul {
+  list-style: none;
+}
+
+#top-text .nav3 ul a {
+  color: black;
+}
+
+.list-left {
+  margin-top: 350px;
+}
+
+#scroll-one .scrollspy1 {
+  position: relative;
+  height: 600px;
+  margin-top: 0.5rem;
+  overflow: auto;
+}
+
+#scroll-one .scrollspy1 li {
+  list-style: none;
+}
+
+#scroll-one .scrollspy1 li a {
+  color: #3f3d3d;
+}
+
+#list-item-2 {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.scrollspy-example {
+  position: relative;
+  height: 500px;
+  width: 1200px;
+  margin-top: 0.5rem;
+  overflow: auto;
+}
+
+#small .scrollspy-example {
+  position: relative;
+  height: 500px;
+  margin-top: 0.5rem;
+  overflow: auto;
+}
+
+.frmol nav {
+  width: 100%;
+}
+
+.frmol ul {
+  position: fixed;
+  top: 6px;
+  width: 700px;
+  margin-bottom: 20px;
+  margin-right: 15px;
+  padding-left: 0ss;
+  background-color: #020202;
+  height: 30px;
+}
+
+.flash {
+  margin-left: 80px;
+}
+
+.Title {
+  color: #fff;
+  font-weight: 400;
+  margin: 100px 10px 0px 10px;
+}
+
+.Content {
+  color: #fff;
+  margin: 20px 0 0 10px;
+}
+
+.pic-2 {
+  margin-top: 90px;
+  height: 320px;
+}
+
+#left-page .nav2 {
+  list-style: none;
+  margin: 100px 0 100px 0px;
+}
+
+#left-page .nav2 a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.Title2 {
+  margin: 0 0 100px 12px;
+  color: #eee6e6;
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

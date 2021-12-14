@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:400,500,700');
+@import "icons.css";
+
+/* DROPDOWN MENU */
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #f1f1f1;
+    min-width: 160px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a {
+    color: black !important;
+}
+#border-one{
+    border-bottom: 1px solid rgb(197, 192, 192);
+}
+
+/*page*/
+#page{
+    margin-top: 20px;
+}
+.card-header{
+    font-weight: bold;
+    font-size: large;
+}
+.card-deck .card {
+    min-width: 220px;
+}
+.btn-primary{
+    min-width: 200px;
+    width: 180px;
+    height: 50px;
+}
+.btn-one{
+    width: 180px;
+    height: 50px;
+    min-width: 100px;
+    margin-bottom: 10px;
+}
+
+
+  

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Bootstrap 04-03 </title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <style>
+        .breadcrumb-item + .breadcrumb-item::before {
+            padding-left: 0.5rem;
+            content: ">";
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container mt-4">
+        <h2> Components : <span class="text-primary"> Breadcrumb </span> </h2>
+        <hr>
+
+        <nav dir="rtl">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"> <a href="#"> خانه </a> </li>
+                <li class="breadcrumb-item"> <a href="#"> عملیات مالی </a> </li>
+                <li class="breadcrumb-item active"> تسویه حساب </li>
+            </ol>
+        </nav>
+
+
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Bootstrap 04-15 </title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+<body class="text-right" dir="rtl">
+
+    <div class="container mt-4 pb-5">
+        <h2> کمپوننت ها : <span class="text-primary"> Navs </span> </h2>
+        <hr>
+
+        <h3 class="mb-4"> روش اول </h3>
+        <ul class="nav nav-tabs">
+            <li class="nav-item"> <a href="#" class="nav-link active"> لینک 1 </a> </li>
+            <li class="nav-item"> <a href="#" class="nav-link"> لینک 2 </a> </li>
+            <li class="nav-item"> <a href="#" class="nav-link"> لینک 3 </a> </li>
+            <li class="nav-item"> <a href="#" class="nav-link"> لینک 4 </a> </li>
+            <li class="nav-item"> <a href="#" class="nav-link"> لینک 5 </a> </li>
+        </ul>
+
+        <hr>
+
+        <h3 class="mb-4"> روش دوم </h3>
+        <nav class="nav nav-pills nav-justified flex-column flex-md-row">
+            <a href="#" class="nav-item nav-link active"> لینک شماره 1 میباشد </a>
+            <a href="#" class="nav-item nav-link"> لینک 2 </a>
+            <a href="#" class="nav-item nav-link"> لینک 3 </a>
+            <a href="#" class="nav-item nav-link"> لینک 4 </a>
+            <a href="#" class="nav-item nav-link"> لینک 5 </a>
+        </nav>
+
+        <hr>
+
+        <h3 class="mb-4"> دیتا تاگل tab </h3>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#contact" role="tab">Contact</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="home"> 1 </div>
+            <div class="tab-pane fade" id="profile"> 2 </div>
+            <div class="tab-pane fade" id="contact"> 3 </div>
+        </div>
+
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

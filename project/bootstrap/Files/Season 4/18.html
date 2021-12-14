@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Bootstrap 04-18 </title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+<body class="text-right" dir="rtl">
+
+    <div class="container mt-4 pb-5">
+        <h2> کمپوننت ها : <span class="text-primary"> Popover </span> </h2>
+        <hr>
+
+        <a tabindex="0" data-trigger="focus" class="btn btn-dark" data-toggle="popover" title="عنوان"
+            data-content="<b>Hello</b>" data-placement="bottom" data-html="true">
+            کلیک کنید
+        </a>
+
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('[data-toggle=popover]').popover();
+        });
+    </script>
+
+</body>
+</html>

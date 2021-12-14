@@ -1,0 +1,144 @@
+
+/***********
+  Fonts
+***********/
+
+@font-face {
+    src : url(../fonts/Dinar.ttf);
+    font-family: Dinar;
+}
+@font-face {
+    src : url(../fonts/Roboto.ttf);
+    font-family: Roboto;
+}
+@font-face {
+    src : url(../fonts/Yekan.woff);
+    font-family: Yekan;
+}
+
+/***********
+  General Styles
+***********/
+
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: Yekan, Roboto;
+}
+
+main {
+    padding-bottom: 300px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Dinar;
+}
+
+/***********
+  General Classes
+***********/
+
+.dinar {
+    font-family: Dinar, Roboto;
+}
+
+.dropdown-toggle::after {
+    margin-left: unset;
+    margin-right : 0.255em;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: unset;
+    margin-left: 0.5rem;
+}
+
+/***********
+  Header
+***********/
+
+.carousel-item > img {
+    filter: blur(2px);
+}
+
+.carousel-caption {
+    top : 50%;
+    transform : translateY(-50%);
+}
+
+.carousel-caption > .caption-container > p {
+    font-size: 1.25em;
+}
+
+.caption-container {
+    display: inline-block;
+    padding: 20px 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav.navbar {
+    background-color: #190A49;
+    padding: 20px 10px;
+    border-bottom: 3px solid #FF0E3B;
+    font-family: Dinar, Roboto;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    z-index: 1;
+}
+
+nav.navbar a {
+    color: #fff;
+}
+
+.social-links {
+    position: absolute;
+    top : 50%;
+    transform : translateY(-50%);
+}
+
+.social-links i {
+    font-size: 1.25rem;
+}
+
+.navbar-nav > .nav-item.active a {
+    border-bottom: 2px solid #fff;
+}
+
+.navbar-nav > .nav-item a, .social-links a {
+    margin: 0px 5px;
+    transition: 0.5s;
+}
+.navbar-nav > .nav-item:hover a, .social-links a:hover{
+    color: #FF0E3B;
+    border-color: #FF0E3B;
+}
+
+/***********
+  Top Cards
+***********/
+.top-card {
+    text-align: center;
+    padding: 100px 10px;
+    color: #fff;
+}
+
+.top-card > h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.top-card > img {
+    width: 100px;
+}
+
+#features .top-card:nth-child(1) {
+    background-color: #FF0E3B;
+}
+
+#features .top-card:nth-child(2) {
+    background-color: #3C098D;
+}
+
+#features .top-card:nth-child(3) {
+    background-color: #190A49;
+}

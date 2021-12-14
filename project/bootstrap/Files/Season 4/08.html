@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Bootstrap 04-08 </title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <style media="screen">
+        .dropdown-toggle::after {
+            margin-left: unset;
+            margin-right : 0.255em;
+        }
+
+        .dropdown.double-dropdown > .btn {
+            border-radius : 0;
+        }
+        .dropdown.double-dropdown > .btn:first-child {
+            border-top-right-radius : 5px;
+            border-bottom-right-radius : 5px;
+        }
+        .dropdown.double-dropdown > .dropdown-toggle-split {
+            border-top-left-radius : 5px;
+            border-bottom-left-radius : 5px;
+        }
+    </style>
+</head>
+<body class="text-right" dir="rtl">
+
+    <div class="container mt-4">
+        <h2> کمپوننت ها : <span class="text-primary"> Dropdowns </span> </h2>
+        <hr>
+
+        <div class="dropdown my-2">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> منوی آبشاری </button>
+            <div class="dropdown-menu dropdown-menu-right text-right">
+                <span class="dropdown-item-text"> لطفا یکی از موارد زیر را انتخاب کنید </span>
+                <a href="#" class="dropdown-item"> Item 1 </a>
+                <a href="#" class="dropdown-item"> Item 2 </a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item"> Item 3 </a>
+            </div>
+        </div>
+
+        <div class="dropup my-2">
+            <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown"> منوی آبشاری </button>
+            <div class="dropdown-menu dropdown-menu-right text-right">
+                <a href="#" class="dropdown-item"> Item 1 </a>
+                <a href="#" class="dropdown-item"> Item 2 </a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item"> Item 3 </a>
+            </div>
+        </div>
+
+        <div class="dropdown double-dropdown my-2">
+
+            <button type="button" class="btn btn-success"> عمل اول </button><button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"></button>
+
+            <div class="dropdown-menu dropdown-menu-right text-right">
+                <a href="#" class="dropdown-item"> Item 1 </a>
+                <a href="#" class="dropdown-item"> Item 2 </a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item"> Item 3 </a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

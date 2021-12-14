@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>complete bootstrap 4 website layout</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="http://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/about-style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar ">
+        <a class="navbar-brand mr-0 mr-md-2" href="#">
+            <span class="glyphicon glyphicon glyphicon-bold rounded p-1">
+            </span>
+        </a>
+        <div class="navbar-nav-scroll">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link" href="../product/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../product/Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <ul class="navbar-nav ml-md-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="mynav" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">v4.5
+                </a>
+                <div class="dropdown-menu" aria-labelledby="mynav">
+                    <a class="dropdown-item  border-bottom" href="#">Latest(4.5.x)</a>
+                    <a class="dropdown-item" href="#">v3.4.1</a>
+                    <a class="dropdown-item" href="#">v2.3.2</a>
+                    <a class="dropdown-item" href="#">ALL versions</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><span class="glyphicon glyphicon-tree-deciduous"></span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><span class="	glyphicon glyphicon-bookmark"></span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><span class="glyphicon glyphicon-euro"></span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><span class="glyphicon glyphicon-repeat"></span></a>
+            </li>
+        </ul>
+        <button type="button" class="btn btn-outline-warning  d-none d-lg-inline-block ">Download</button>
+    </nav>
+    <!--page-->
+    <div class="container-fluid">
+        <div class="row w-100% p-3">
+            <div id="col-one" class="col-lg-2 col-md-2 col-sm-2">
+                <input type="search" class="form-control" id="search">
+                <nav class="navbar navbar-expand-md navbar-dark bg-secondary text-white">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#list">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="list">
+                        <ul class="navbar-nav nav flex-column ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Getting started</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Layout</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Content</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Components</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Utilities</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Extend</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Migration</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Overview</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class=" test col-lg-9 col-md-9 col-sm-12">
+                <h1 class="display-4">About</h1>
+                <p class="h4">
+                    Learn more about the team maintaining Bootstrap, how and why the project started, and how to get
+                    involved.
+                </p>
+                <div id="card-1" class="card  d-flex flex-column flex-md-row">
+                    <div class="row no-gutters">
+                        <div class="col-md-5 col-sm-12">
+                            <img src="../imgeas/two.jpg" class="card-img">
+                        </div>
+                        <div class="card-body col-md-6">
+                            <p class="card-text ml-2 mb-3">Limited time offer: Get 10 free Adobe Stock images.
+                                ads via Carbon</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-12">
+                    <h1>Team</h1>
+                    <p>
+                        Bootstrap is maintained by a small team of developers on GitHub. We’re actively looking to
+                        grow
+                        this team and would love to hear from you if you’re excited about CSS at scale, writing and
+                        maintaining vanilla JavaScript plugins, and improving build tooling processes for frontend
+                        code.
+                    </p>
+                    <div class="d-none d-sm-block">
+                        <h1>History</h1>
+                        <p>
+                            Originally created by a designer and a developer at Twitter, Bootstrap has become one of
+                            the
+                            most popular fronttest-end frameworks and open source projects in the world.
+                            Bootstrap was created at Twitter in mid-2010 by @mdo and @fat. Prior to being an
+                            open-sourcedframework, Bootstrap was known as Twitter Blueprint. A few months into
+                            development, Twitter heldits first Hack Week and the project exploded as developers of
+                            all
+                            skill levels jumped in withoutany external guidance. It served as the style guide for
+                            internal tools development at
+                            the company for over a year before its public release, and continues to do so today.
+                            Originally released on Friday, August 19, 2011, we’ve since had over twenty releases,
+                            includingtwo major rewrites with v2 and v3. With Bootstrap 2, we added responsive
+                            functionality to theentire framework as an optional stylesheet. Building on that with
+                            Bootstrap 3, we rewrotethelibrary once more to make it responsive by default with a
+                            mobile
+                            first approach.
+                            With Bootstrap 4, we once again rewrote the project to account for two key architectural
+                            changes: a migration to Sass and the move to CSS’s flexbox. Our intention is to help in
+                            a
+                            small to move the web development community forward by pushing for newer CSS properties,
+                            fewer dependencies, and new technologies across more modern browsers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bd-footer p-2 p-md-5 mt-5 text-center text-muted bg-light col-12">
+        <div id="foot" class="container">
+            <ul class="list-inline">
+                <li class="list-inline-item pl-1">
+                    <a class="nav-link text-secondary small" href="#">GitHub</a>
+                </li>
+                <li class="list-inline-item pl-1">
+                    <a class="nav-link text-secondary small" href="#">Twitter</a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="nav-link text-secondary small" href="#">Examples</a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="nav-link text-secondary small" href="#">About</a>
+                </li>
+            </ul>
+            <p>Designed and built with all the love in the world by the"
+                <a href="#">Bootstrapteam</a>
+                withthe helpof"
+                <a href="#">our contributors.</a>
+            </p>
+            <p>Currently v4.5.3. The Bootstrap Blog is"
+                <a href="#">open source</a>
+                under the MIT license.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

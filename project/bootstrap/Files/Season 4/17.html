@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Bootstrap 04-17 </title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <style>
+        .page-item:first-child .page-link {
+            border-radius: 0;
+            border-top-right-radius : 5px;
+            border-bottom-right-radius : 5px;
+        }
+
+        .page-item:last-child .page-link {
+            border-radius: 0;
+            border-top-left-radius : 5px;
+            border-bottom-left-radius : 5px;
+        }
+    </style>
+</head>
+<body class="text-right" dir="rtl">
+
+    <div class="container mt-4 pb-5">
+        <h2> کمپوننت ها : <span class="text-primary"> Pagination </span> </h2>
+        <hr>
+
+        <nav>
+            <ul class="pagination">
+                <li class="page-item disabled"> <a href="#" class="page-link"> &laquo; </a> </li>
+                <li class="page-item active"> <a href="#" class="page-link"> 1 </a> </li>
+                <li class="page-item"> <a href="#" class="page-link"> 2 </a> </li>
+                <li class="page-item"> <a href="#" class="page-link"> 3 </a> </li>
+                <li class="page-item"> <a href="#" class="page-link"> 4 </a> </li>
+                <li class="page-item"> <a href="#" class="page-link"> &raquo; </a> </li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

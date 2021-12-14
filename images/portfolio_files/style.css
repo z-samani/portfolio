@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css?family=poppins:400,500,700");
+@import url(c:\Users\98913\Desktop\destap\portfolio\icons.css);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  background-color: black;
+}
+
+main .picture {
+  width: 450px;
+}
+
+main .v-select {
+  height: 60px;
+  width: 80px;
+}
+
+main .languish-1 {
+  margin-left: 320px;
+}
+
+main .pic1 {
+  width: 100%;
+  height: 200px;
+}
+
+main .pic2 {
+  width: 300px;
+  height: 200px;
+}
+
+main .pic3 {
+  width: 100%;
+  height: 200px;
+}
+
+main .pic4 {
+  width: 200px;
+  height: 250px;
+}
+
+main #left-design {
+  height: 765px;
+}
+
+main #left-design .honar {
+  width: 460px;
+  height: 200px;
+}
+
+main #left-design .bg-imgleft {
+  background-image: url("images/img1.jpg");
+  height: 765px;
+  width: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+main #left-design .bg-imgleft .profile {
+  width: 80px;
+  height: 95px;
+  position: relative;
+  top: 280px;
+  left: 60px;
+}
+
+main #left-design .bg-imgleft .modal-title {
+  margin-left: 380px;
+}
+
+main #left-design .bg-imgleft .about {
+  position: relative;
+  top: 320px;
+  left: 70px;
+  color: #484b4e;
+  font-weight: 500;
+}
+
+main #left-design .bg-imgleft .content {
+  position: relative;
+  top: 350px;
+  left: 55px;
+  color: #484b4e;
+  font-weight: 500;
+}
+
+main #left-design .bg-imgleft .number-content {
+  margin-left: 250px;
+}
+
+main #right-design .carousel-control-prev-icon {
+  background-color: black;
+}
+
+main #right-design .carousel-control-next-icon {
+  background-color: black;
+}
+
+main #right-design .rubik {
+  position: relative;
+  bottom: 60px;
+  right: 150px;
+}
+
+main #right-design button {
+  border: 0ch;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+main #right-design .row {
+  height: 120px;
+  position: relative;
+  bottom: 150px;
+}
+
+main #right-design .row .btn-1 {
+  height: 100px;
+  position: relative;
+  top: 80px;
+}
+
+main #right-design .row .btn-1 .honar {
+  width: 90px;
+  height: 75px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main #right-design .row .btn-2 {
+  height: 100px;
+  position: relative;
+  top: 50px;
+}
+
+main #right-design .row .btn-2 .languish {
+  height: 75px;
+  width: 100px;
+  position: relative;
+  right: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main #right-design .row .btn-3 .hafez {
+  width: 100px;
+  height: 75px;
+  position: relative;
+  top: 20px;
+  right: 80px;
+  font-weight: bold;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main #right-design .row .btn-4 {
+  height: 200px;
+  position: relative;
+  top: 120px;
+}
+
+main #right-design .row .btn-4 .ahdaf {
+  height: 75px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main #right-design .row .btn-5 {
+  position: relative;
+  top: 100px;
+  right: 30px;
+}
+
+main #right-design .row .btn-5 .music {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main #right-design .row .btn-6 {
+  position: relative;
+  top: 60px;
+  right: 80px;
+}
+
+main #right-design .row .btn-6 .pic {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main #right-design .row .btn-7 {
+  position: relative;
+  top: 160px;
+  left: 20px;
+}
+
+main #right-design .row .btn-7 .gol {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main #right-design .row .btn-8 {
+  position: relative;
+  top: 110px;
+  right: 30px;
+}
+
+main #right-design .row .btn-8 .rezume {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main #right-design .row .btn-9 {
+  position: relative;
+  top: 60px;
+  right: 80px;
+}
+
+main #right-design .row .btn-9 .book {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main #right-design .bg-imgright {
+  height: 765px;
+}
+
+main #right-design .btn-z {
+  width: 200px;
+  height: 50px;
+  font-size: medium;
+}
+
+main #right-design .img-12 {
+  width: 200px;
+  position: relative;
+  bottom: 500px;
+  left: 50px;
+}
+
+main #right-design #card-cod {
+  position: relative;
+  bottom: 200px;
+  left: 300px;
+}
+
+main #right-design .title {
+  position: relative;
+  bottom: 400px;
+  left: 170px;
+}
+
+main #right-design .title2 {
+  position: relative;
+  bottom: 380px;
+  font-size: 30px;
+}
+
+main #right-design .ff {
+  position: relative;
+  right: 200px;
+}
+
+main #right-design .tt {
+  position: relative;
+  top: 200px;
+  left: 150px;
+}
+
+main #right-design .program {
+  position: relative;
+  bottom: 300px;
+  left: 240px;
+}
+
+main #right-design footer {
+  width: 100%;
+}
+
+main #right-design footer .tel {
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: 12px;
+}
+/*# sourceMappingURL=style.css.map */

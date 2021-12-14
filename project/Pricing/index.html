@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>complete bootstrap 4 website layout</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="http://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--nav-->
+    <nav class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar shadow p-3 mb-5 bg-white rounded">
+        <a class="navbar-brand  text-dark" href="#">Company name</a>
+        <!-- DROPDOWN MENU -->
+        <ul class="navbar-nav ml-md-auto">
+            <li class="nav-item dropdown divider">
+                <a class="nav-link text-dark" href="#">
+                    Features
+                </a>
+                <div class="dropdown-content">
+                    <a id="border-one" href="#" class="nav-link">Enterprise</a>
+                    <a id="border-one" href="#" class="nav-link">Support</a>
+                    <a id="border-one" href="#" class="nav-link">Pricing</a>
+                </div>
+            </li>
+            <button type="button" class="btn btn-outline-primary  d-none d-lg-inline-block ml-5 ">Sign up</button>
+        </ul>
+    </nav>
+    <!--page-->
+    <div id="page" class="container text-center col-md-6">
+        <h1 class="text-center">Pricing</h1>
+        <p>Quickly build an effective pricing table for your potential customers with this
+            Bootstrap
+            example. It's built
+            with default Bootstrap components and utilities with little customization.</p>
+    </div>
+    <!--card-->
+    <div id="card-1" class="container mx-auto">
+        <div class="card-deck mb-3 text-center">
+            <!--card-column1-->
+            <div class="card mb-4 box-shadow col-md-4">
+                <div class="card-header">
+                    Free
+                </div>
+                <div class="card-body">
+                    <h3 class="Bold text"> $0<a href="#" class="text-muted"> / mo</h3></a>
+                    <ul class="card-text text-uppercase list-unstyled">
+                        <li>10 users included</li>
+                        <li>2 GB of storage</li>
+                        <li>Email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <a href="#" class="btn-one btn btn-outline-primary col-md-12">Sign up for free</a>
+                </div>
+            </div>
+            <!--card-column2-->
+            <div class="card mb-4 box-shadow col-md-4">
+                <div class="card-header">
+                    Pro
+                </div>
+                <div class="card-body">
+                    <h3 class="Bold text"> $15<a href="#" class="text-muted"> / mo</h3></a>
+                    <ul class="card-text text-uppercase list-unstyled">
+                        <li>20 users included</li>
+                        <li>10 GB of storage</li>
+                        <li>Priority email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <a href="#" class="btn-one btn btn-primary col-md-12">Sign up for free</a>
+                </div>
+            </div>
+            <!--card-column3-->
+            <div class="card mb-4 box-shadow col-md-4">
+                <div class="card-header">
+                    Enterprise
+                </div>
+                <div class="card-body">
+                    <h3 class="Bold text"> $29<a href="#" class="text-muted"> / mo</h3></a>
+                    <ul class="card-text text-uppercase list-unstyled">
+                        <li>30 users included</li>
+                        <li>15 GB of storage</li>
+                        <li>Phone and email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <a href="#" class="btn-one btn btn btn-primary col-md-12">Sign up for free</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <footer class="page-footer font-small indigo shadow p-3 mt-5 bg-white rounded">
+        <div class="container  text-center text-md-left">
+            <div class="row ">
+                <!-- Grid column1 -->
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <img src="images/01.jpg">
+                    <h5 class="text-secondary small">
+                        <span class="glyphicon glyphicon glyphicon-copyright-mark p-2"></span>2017-2018</h5>
+                </div>
+                <!-- Grid column2 -->
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4r small">Features</h5>
+                    <ul class="list-unstyled ">
+                        <li>
+                            <a class="text-secondary" href="#">Cool stuff</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary" href="#">Random feature</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary" href="#">Team feature</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary" href="#">Stuff for developers</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary" href="#">Another one</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary" href="#">Last time</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Grid column3 -->
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4r small">Resources</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="text-secondary" href="#">Resource</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary" href="#">Resource name</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary" href="#">Another resource</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary" href="#">Final resource</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Grid column4 -->
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4r small">About</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="text-secondary" href="#">Team</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary" href="#">Locations</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary" href="#">Privacy</a>
+                        </li>
+                        <li>
+                            <a class="text-secondary" href="#">Terms</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

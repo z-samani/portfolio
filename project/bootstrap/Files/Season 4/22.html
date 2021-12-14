@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Bootstrap 04-22 </title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <style>
+        .toast-container {
+            position: absolute;
+            bottom: 50px;
+            left: 30px;
+        }
+    </style>
+
+</head>
+<body class="text-right" dir="rtl">
+
+    <div class="container mt-4 pb-5">
+        <h2> کمپوننت ها : <span class="text-primary"> Toast </span> </h2>
+        <hr>
+
+        <div class="toast-container">
+            <div class="toast bg-success text-light" data-autohide="false">
+                <div class="toast-header py-2">
+                    <strong> عنوان </strong>
+                    <button type="button" class="close mr-auto" data-dismiss="toast">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="toast-body">
+                    متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام
+                </div>
+            </div>
+
+            <div class="toast bg-success text-light" data-autohide="false">
+                <div class="toast-header py-2">
+                    <strong> عنوان </strong>
+                    <button type="button" class="close mr-auto" data-dismiss="toast">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="toast-body">
+                    متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.toast').toast('show');
+        });
+    </script>
+
+</body>
+</html>

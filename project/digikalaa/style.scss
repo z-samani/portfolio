@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css?family=poppins:400,500,700");
+@import "icons";
+$svg-all: rgb(141, 140, 140);
+$Color: rgb(143, 140, 140);
+$mainBorder: solid 2px #6bb927;
+$mainFontSize: 12px;
+$mainfontbold: bold;
+$font: Verdana, Geneva, Tahoma, sans-serif;
+$back-color: #b9beb7;
+* {
+    direction: rtl;
+}
+@mixin reset-m-p {
+    margin: 0;
+    padding: 0;
+}
+.row{
+    width: 100%;
+}
+header {
+    background-color: rgb(243, 243, 236);
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        z-index: 3;
+        background-color: #ebe9e1;
+        min-width: 160px;
+        width: 100%;
+        padding-right: 10px;
+    }
+    .list:hover {
+        background-color: $Color;
+        padding-left: 20px;
+        width: 150px;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .row {
+        padding: 10px 0;
+        .text {
+            border: 1px solid rgb(170, 170, 170);
+            padding: 5px 0;
+            margin-top: 5px;
+        }
+        svg {
+            color: $svg-all;
+            margin-top: 5px;
+        }
+    }
+    nav {
+        ul {
+            padding: 10px;
+            display: flex;
+            justify-content: right;
+            list-style: none;
+            @media screen and (min-width: 991.98px) {
+                .location {
+                    margin-right: 320px;
+                    :hover {
+                        background-color: $Color;
+                        -webkit-transition: 0.9s;
+                        transition: 0.9s;
+                    }
+                }
+            }
+            li {
+                padding: px 10px;
+                a {
+                    text-decoration: none;
+                    font-size: $mainFontSize;
+                    font-weight: $mainfontbold;
+                    color: $Color;
+                    font-family: $font;
+                }
+            }
+        }
+    }
+    @media screen and (min-width: 991.98px) {
+        position: fixed;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        z-index: 2;
+    }
+}
+main {
+    .pic-two-row {
+        width: 300px;
+    }
+    padding: 0 0 20px 20px;
+
+    @media screen and (min-width: 991.98px) {
+        margin-top: 155px;
+    }
+    @media screen and (min-width: 991.98px) {
+    }
+    .btn-1 {
+        width: 150px;
+        height: 50px;
+        color: green;
+        border: 1px solid green;
+        font-weight: $mainfontbold;
+    }
+    a {
+        text-decoration: none;
+        font-size: $mainFontSize;
+        font-weight: $mainfontbold;
+        color: $Color;
+        font-family: $font;
+    }
+    .larg-pic{
+        width: 450px;
+        height: 250px;
+      
+    }
+
+    #list-right {
+        padding: 10px 0 10px 0;
+        width: 100%;
+        .btn-all {
+            font-size: 12px;
+            font-weight: $mainfontbold;
+        }
+        a {
+            color: $Color;
+        }
+    }
+    #left-main {
+        .main-left-pic1 {
+            border-top: $mainBorder;
+            width: 100%;
+        }
+    }
+    #list-left-main {
+        ul {
+            li {
+                padding: 2px 0;
+                text-decoration: none;
+                img {
+                    width: 30px;
+                    height: 50px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+    #end-food{
+        .card-img-top{
+            background-color:red;
+            width: 200px;
+            height: 150px;
+        }
+    }
+}
+
+footer {
+    background-color: #eceff1;
+    .card-img-top {
+        width: 70px;
+        height: 60px;
+    }
+    .f-pic {
+        width: 30px;
+        height: 30px;
+    }
+    .f-pic3 {
+        width: 150px;
+        height: 75px;
+    }
+}

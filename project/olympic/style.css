@@ -1,0 +1,485 @@
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.size-two{
+    width: 50%;
+}
+.size-three{
+    width: 33%;
+}
+.size-four{
+    width: 25%;
+}
+#header{
+    background-image: url("headerBackground2.png");
+    background-size:auto  250px;    
+    background-repeat: repeat-x;
+    height: 250px;
+    width: 100%;
+    min-width: 300px;
+}
+#top-ul{
+    float: left;
+    margin:18px;
+    line-height: inherit;
+    box-sizing: border-box;
+    overflow: visible;   
+}
+.first{
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(29, 4, 173);
+    font-family:  inherit; 
+    font-size: 18px; 
+    width: 200px; 
+    margin-right:60px;
+    color: #eee;
+    overflow: visible;
+    text-indent: 0px; 
+}
+.second{
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(29, 4, 173);
+    font-family: arial; 
+    font-size: 18px;
+    width: 90px; 
+    margin-right: 25px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: right;
+    margin-left: 5px;
+    margin-bottom:5px ;
+}
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding:10px;
+    color: 20 0 1px rgba(255, 255, 255, 0.103);
+}
+li a:hover {
+    background-color: #7c70e7;
+    color:rgb(57, 83, 50);   
+}
+#logo-navbar{
+    position: relative;
+    top: 60px;
+    height: 140px;
+    width: 910px;
+    margin: auto;
+}
+#navbar{
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+    width:778px;
+    left:7px;
+    margin-top: 30px;
+    font-family:"SDF",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    cursor: pointer;
+    color:#3b3b3b;
+    transition: all .4s ease-in-out;
+    box-sizing: border-box;  
+}
+.logo{
+    float: right;
+}
+#baner{
+    width: 100%;
+    height: 336px;
+    background-color: yellow;
+}
+.baner-first{
+    width: 100%;
+    background-color: salmon;
+    height: 330px;
+    background-repeat: repeat-x;     
+}
+#baner hr {
+    background-color: blue;
+    height: 5px;
+    margin-bottom: 80px;
+    margin-top: 0px;
+}
+#page{
+    width: 100%;
+    background-color: rgba(219, 210, 210, 0.897);
+    margin: 0 auto;
+}
+#line{
+    width: 100%;
+    margin: 0 auto;
+    min-width: 1150px;
+    background-color: rgb(202, 199, 199);
+    margin-top: 80px;
+    height: 60px;
+}
+#line hr ,#images hr{
+    position: relative;
+    top: 26px;
+    height: 2px;
+    background-color:blue;
+}
+#line h4{
+    width: 100px;
+    position: absolute;
+    bottom: 27px;
+    top:662px;
+    height: 30px;
+    padding-top: 20px;
+    background-color: rgb(202, 199, 199);
+    text-align:center;
+    color:blue;
+}
+ #line .title1{
+    left: 1000px;
+}
+#line .title2{
+    left: 175px;
+} 
+ol{
+    width: 100%;
+}
+#news{
+    width: 100%;
+    height: 380px;
+}
+#list{
+    width: 33%;
+    min-width: 380px;
+    height: 370px;
+    float: left;
+}
+#list ul{
+    width: 350px;
+    background-color: rgb(218, 216, 216);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    cursor: pointer;  
+    margin:0 auto;
+}
+#list ul a:hover {
+    background-color: rgb(155, 240, 218);
+}
+#list li{
+    width: 350px;
+}
+#news-image{
+    width: 31%;
+    min-width: 380px;
+    height: 360px;
+    float: left;
+    margin: 0 auto;
+    padding: 10px;
+}
+#image-top, #image-down{
+    height: 180px;
+    margin: auto;
+}
+#news-image img{
+    width: 180px;
+    height: 100px;  
+}
+#news-image h5 {
+    background-color: blue;
+    position: relative;
+    bottom: 30px;
+    width: 160px;
+    height: 50px;
+    padding: 10px;
+    direction: rtl;
+}
+#news-image .left, #news-image .right{
+    margin: 2px;
+    width: 180px;
+    height: 150px;  
+}
+ #image-top .left, #image-down .left {
+    float: right;
+    height: 160px;
+}
+#image-top .right, #image-down .right {
+    height: 160px;
+    float: left;
+}
+#end-image{
+    width: 33%;
+    min-width: 380px;
+    height: 370px;
+    float: right;
+}
+.end-news-image{
+    width: 430px;
+    height: 380px;
+    display: block;
+    margin: 0 auto;
+}
+#background{
+    background-image: url("headerBackground2.png");
+    background-size:auto  250px;    
+    background-repeat: repeat-x;
+    height: 210px;
+    width: 100%;
+    position: relative;
+}
+#second-baner ,.two-baneer{
+    width: 100%;
+}
+#timer{
+    width: 100%;
+    margin: 0 auto;    
+}
+.timer-child{
+    width: 547px;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+.first-timer{
+    float: right;  
+}
+#timer .time{
+    margin:  0 auto;
+    display: block;
+}
+#bac-top ,#bac-down{
+    width: 100%;
+    height: 250px;
+}
+#bac-line {
+    width: 80%;
+    height: 50px;
+    background-color: rgb(202, 199, 199);
+    margin: 0 auto;
+    display: block;
+    padding-top: 10px;  
+}
+.gozaresh-tasviri{
+    width:100%;
+    height: 2px;
+    background-color: blue;
+    margin-top:15px;   
+}
+#bac-image{
+    width: 63%;
+    min-width:500px;
+    margin: 0 auto;
+    display: block;
+    margin-top:10px;
+}
+ .p-text{
+    background-color: rgb(202, 199, 199);
+    width: 100px;
+    height: 35px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 13px;
+    color: blue;
+    font-weight: bold; 
+    text-align: center;  
+}
+.bac-one{
+   width: 200px;
+   height: 150px;   
+}
+#scroll .scroll-img{
+    width: 100%;
+    height: 400px;
+}
+#line-two hr{
+    width: 1200px;
+    height: 3px;
+    background-color: blue;
+    margin-top: 70px;
+}
+#line-two h4{
+    background-color:  rgba(235, 235, 235, 0.897);
+    width: 100px;
+    height: 20px;
+    position: relative;
+    bottom:20px;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(81, 81, 187);
+}
+#small-page{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    margin: 0 auto;
+    display: block;
+}
+.small-top{
+    width:800px;
+    margin: 0 auto;
+}
+.small-top img{
+    width:20%;
+    min-width: 250px;
+}
+#small-page .space{
+    margin:0 20px;
+    margin-top: 45px;
+} 
+.small-top:hover{
+    background-color: rgb(195, 209, 179);
+}
+#list-link{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    display: block;   
+}
+.comisiuon .one-list{
+    width: 400px;
+    height: 70px;
+    margin-top:50px;
+    float: left;
+    width: 350px;
+    margin-left: 30px; 
+    margin-top: 30px;  
+}
+.one-list{
+    float: left;
+    width: 350px;
+    margin-left: 30px;   
+}
+a:link, a:visited {
+    color: (internal value);
+    cursor:pointer;
+    text-align: center;
+}
+  #list-link li {
+    margin-top: 5px;
+    text-align: center;
+    width: 395px;
+    border-style:hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-weight: bold;
+}
+#list-link {
+    margin: 0 auto;
+    display: block;
+    width: 1170px; 
+}
+#list-link li:nth-child(even), #list li:nth-child(even) {
+    background-color: white;
+    margin: 0 auto;  
+}
+#list-link li:nth-child(odd), #list li:nth-child(odd) {
+    background-color: rgba(219, 210, 210, 0.897);
+    margin: 0 auto;
+}
+#img-end , .end{
+    width: 90%;
+    min-width: 600px;
+    height: 350px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 30px;
+}
+.liner-one{
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    margin-bottom: 10px;
+}
+#hamiyan{
+    width: 100%;
+    height: 390px; 
+}
+.images-h{
+    height: 300px;
+    margin: 0 auto;
+}
+.hamiyan-pic{
+    width: 80%;
+}
+.hami-left{
+    width: 380px;
+    height: 230px;
+    margin: 0 auto;
+    display: block;  
+}
+.two-image-hami{
+    float: right;
+    margin: 0 auto;
+}
+.two-image-hami , .two-image-hami2{
+    width: 30%;
+    height: 300px;
+    padding-top:3px ;
+    margin-left: 170px;
+    margin-right:170px;
+}
+#footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(47, 47, 160);
+}
+#top-footer{
+    height: 300px;
+    margin: 0 auto;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(236, 225, 225, 0.933);
+    font-weight: 600; 
+}
+.left-foot {
+    float: right;
+    margin: 0 auto;
+    width:50% ;
+    height: 200px;
+    padding-top: 30px;  
+}
+.app-end{
+    width: 25%;
+    height: 20px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+.app-end-1{
+    width: 5%;
+    height:20px;
+    margin: 0 auto;
+    display: block;
+}
+#top-footer hr{
+    width: 40%;
+    color: white;
+}
+#top-footer p,#end-footer p{
+    margin: 0 auto;
+    font-size: medium;
+    text-align: center; 
+}
+#end-footer{
+    height: 200px;
+}
+#end-footer hr{
+    width: 90%;
+    margin-top: 100px;  
+}
+.text-right {
+    width: 470px;
+    position: relative;
+    right:50px;
+}
+ .text-center{
+    position: relative;
+    top: 100px;
+    margin-top: 100px;
+}

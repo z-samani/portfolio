@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Bootstrap 04-12 </title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <style>
+
+        .custom-list-group-horizontal .list-group-item:first-child {
+            border-radius: 5px;
+            border-top-left-radius : 0px;
+            border-bottom-left-radius :0px;
+        }
+        .custom-list-group-horizontal .list-group-item:last-child {
+            border-radius: 5px;
+            border-top-right-radius : 0px;
+            border-bottom-right-radius :0px;
+        }
+    </style>
+
+</head>
+<body class="text-right" dir="rtl">
+
+    <div class="container mt-4 pb-5">
+        <h2> کمپوننت ها : <span class="text-primary"> List group </span> </h2>
+        <hr>
+
+        <div class="row">
+            <div class="col-md-4 my-2">
+                <ul class="list-group p-0">
+                    <li class="list-group-item active"> آیتم 1 </li>
+                    <li class="list-group-item list-group-item-primary"> آیتم 2 </li>
+                    <li class="list-group-item"> آیتم 3 </li>
+                    <li class="list-group-item disabled"> آیتم 4 </li>
+                </ul>
+            </div>
+            <div class="col-md-4 my-2">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active"> آیتم 1 </a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-danger"> آیتم 2 </a>
+                    <a href="#" class="list-group-item list-group-item-action"> آیتم 3 </a>
+                    <a href="#" class="list-group-item list-group-item-action disabled"> آیتم 4 </a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <ul class="list-group custom-list-group-horizontal list-group-horizontal-lg p-0">
+            <li class="list-group-item"> آیتم 1 </li>
+            <li class="list-group-item"> آیتم 2 </li>
+            <li class="list-group-item"> آیتم 3 </li>
+            <li class="list-group-item"> آیتم 4 </li>
+        </ul>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-4">
+                <div class="list-group">
+                    <a class="list-group-item list-group-item-action active" data-toggle="list" href="#gholi" >Home</a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#ali" >Profile</a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#reza" >Messages</a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#mamad" >Settings</a>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="gholi">
+                        111111
+                    </div>
+                    <div class="tab-pane fade" id="ali">
+                        222222
+                    </div>
+                    <div class="tab-pane fade" id="reza">
+                        333333
+                    </div>
+                    <div class="tab-pane fade" id="mamad">
+                        444444
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

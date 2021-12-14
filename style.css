@@ -1,0 +1,626 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=poppins:400,500,700");
+@import url(/home/zahra/رومیزی/portfolio/icons.css);
+body {
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main #design-left .bg-left {
+  background-image: url("images/img1.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+main #design-left .bg-left .left-page-center {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 500px;
+}
+
+main #design-left .bg-left .left-page-center .img-zahra {
+  width: 70px;
+  height: 90px;
+}
+
+main #design-left .bg-left .left-page-center .modal-body {
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 5px;
+}
+
+main #design-left .bg-left .left-page-center .modal-header {
+  background-color: #4b769e;
+}
+
+main #design-left .bg-left .l-page2 {
+  width: 100%;
+  position: relative;
+  top: 60px;
+}
+
+@media (max-width: 1162px) {
+  main #design-left .bg-left .email-foot {
+    font-size: 9px;
+  }
+}
+
+main #design-left .bg-left .email-foot {
+  color: #82a1a7;
+  position: relative;
+  top: 200px;
+  direction: ltr;
+}
+
+main #design-left .bg-left .email-foot .text-email {
+  color: #82a1a7;
+}
+
+main #design-left .bg-left .footer1 {
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+main #design-left .bg-left .img1 {
+  width: 18px;
+  height: 18px;
+}
+
+main #design-left .bg-left .z-btn {
+  position: absolute;
+  top: 250px;
+  border-radius: 10px;
+}
+
+main #design-left .bg-left .tel {
+  direction: ltr;
+  color: black;
+}
+
+main #design-left .bg-left .about {
+  width: 93px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #design-left .bg-left .zahra {
+  direction: rtl;
+  font-weight: bold;
+}
+
+main #design-left .bg-left hr.style1 {
+  border-top: 1px solid #4a555f;
+  width: 100%;
+  padding: 0;
+  position: relative;
+  top: 100px;
+}
+
+main #small-mobile {
+  direction: rtl;
+}
+
+main #small-mobile .sm-midani {
+  height: 200px;
+  width: 200px;
+}
+
+main #small-mobile .tel {
+  text-align: center;
+  color: black;
+}
+
+main #small-mobile .zahra {
+  margin-left: 140px;
+  font-weight: bold;
+}
+
+main #small-mobile .text-h {
+  font-size: 16px;
+  color: #f1eaea;
+  background-color: black;
+  height: 60px;
+}
+
+main #small-mobile .about-sm {
+  color: #ecd7ae;
+}
+
+main #small-mobile .p-text {
+  color: #ecd7ae;
+  font-weight: bold;
+}
+
+main #small-mobile audio::-webkit-media-controls-play-button,
+main #small-mobile audio::-webkit-media-controls-panel {
+  background-color: #4066a0;
+  color: #a0276e;
+}
+
+main #small-mobile .bg-small {
+  background-image: url("images/x5.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+main #small-mobile .book {
+  margin-top: 450px;
+}
+
+main #small-mobile .pic11 {
+  width: 100%;
+  height: 400px;
+  border-radius: 5%;
+}
+
+@media screen and (max-width: 372px) {
+  main #small-mobile #myModa40 .pic11 {
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+  }
+}
+
+main #small-mobile .projeh {
+  width: 100%;
+}
+
+main #small-mobile .text-small-projeh {
+  background-color: #1e3758;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+main #small-mobile .small-projeh {
+  font-weight: bold;
+  background-color: #1e3758;
+  color: white;
+  font-size: 1.2em;
+  width: 120px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+main #small-mobile .list-small {
+  font-weight: bold;
+  direction: ltr;
+}
+
+main #small-mobile #small-ahdaf .btn-link {
+  font-weight: bold;
+  color: #353434;
+}
+
+main #small-mobile #small-ahdaf thead {
+  background-color: #4066a0;
+}
+
+main #small-mobile #small-ahdaf thead .small-row th,
+main #small-mobile #small-ahdaf thead .small-row td {
+  border: 1px solid #124712;
+}
+
+main #small-mobile #small-ahdaf tbody .small-row th,
+main #small-mobile #small-ahdaf tbody .small-row td {
+  background-color: white;
+  border: 1px solid #124712;
+}
+
+main #small-mobile .bg-ahdaf-small {
+  background-image: url("images/cc1.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+main #small-mobile .text-bg-small {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+main #small-mobile .small-rezumeh {
+  font-weight: bold;
+  background-color: #4066a0;
+  color: #292929;
+  border: 1px solid #3f82a8;
+}
+
+main #small-mobile #small-rezumeh li {
+  border: 1px solid #3e597c;
+}
+
+main #small-mobile .text-maharat {
+  position: relative;
+  left: 88px;
+  top: 70px;
+}
+
+main #small-mobile .tahsili {
+  width: 100%;
+}
+
+main #small-mobile .text-h {
+  background-color: darkcyan;
+  color: white;
+  font-weight: bold;
+  border-radius: 3%;
+}
+
+main #small-mobile .varzeshi {
+  background-image: url("images/gg.jpg");
+  width: 100%;
+}
+
+main #small-mobile .varzeshi h5 {
+  padding: 5px;
+}
+
+main #small-mobile #img-varzesh img {
+  border-radius: 5%;
+}
+
+main #small-mobile .exit {
+  width: 100%;
+}
+
+main #small-mobile .ahdaf {
+  width: 100%;
+}
+
+main #small-mobile .rounded {
+  width: 200px;
+  height: 200px;
+}
+
+main #small-mobile .pic5 {
+  width: 500px;
+  height: 500px;
+}
+
+main #small-mobile .p-x {
+  position: relative;
+  bottom: 130px;
+  text-align: center;
+}
+
+main #small-mobile .close {
+  margin-top: 280px;
+}
+
+main #small-mobile .btn-z1 {
+  width: 160px;
+  font-weight: bold;
+  background-color: #2f294b;
+}
+
+main #small-mobile .btn-4 {
+  margin-top: 50px;
+}
+
+main #small-mobile .foot1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+}
+
+main .foot {
+  margin-top: 430px;
+  color: #f0e7e7;
+  font-size: small;
+  text-align: center;
+}
+
+main #carouselExampleCaptions .carousel-indicators button {
+  margin-top: 3px;
+  margin-left: 10px;
+  background-color: #0d152e;
+}
+
+main #carouselExampleCaptions .btn-z {
+  width: 200px;
+  height: 40px;
+  font-weight: bolder;
+}
+
+main #carouselExampleCaptions .nav-tabs {
+  border-bottom: 2px solid #d19d0e;
+}
+
+main #carouselExampleCaptions .carousel-inner .bg-imgright {
+  width: 100%;
+  height: 700px;
+}
+
+main #carouselExampleCaptions .carousel-inner a:hover {
+  text-decoration: none;
+}
+
+main #carouselExampleCaptions .carousel-inner .titre {
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1em;
+}
+
+main #carouselExampleCaptions .carousel-inner #titre-ahdaf {
+  background-color: #1e3758;
+  font-size: 20px;
+  color: white;
+}
+
+main #carouselExampleCaptions .carousel-inner #col-ahdaf td,
+main #carouselExampleCaptions .carousel-inner #col-ahdaf th {
+  font-weight: bold;
+  border: 1px solid #1e3758;
+}
+
+main #carouselExampleCaptions .carousel-inner .ahdaf {
+  margin-bottom: 150px;
+}
+
+main #carouselExampleCaptions .carousel-inner #rezume {
+  background-color: #1e3758;
+}
+
+main #carouselExampleCaptions .carousel-inner #rezume h4 {
+  color: black;
+}
+
+main #carouselExampleCaptions .carousel-inner #rezume ul {
+  color: black;
+  font-size: small;
+  font-weight: bold;
+}
+
+main #carouselExampleCaptions .carousel-inner #rezume ul li {
+  border: 1px solid #1e3758;
+}
+
+main #carouselExampleCaptions .carousel-inner #card-projeh {
+  border-radius: 15px;
+}
+
+main #carouselExampleCaptions .carousel-inner #card-projeh .card-title {
+  background-color: #293855;
+  margin-bottom: 10px;
+}
+
+main #carouselExampleCaptions .carousel-inner #card-projeh h5 {
+  font-weight: bold;
+  color: black;
+}
+
+main #carouselExampleCaptions .carousel-inner #card-projeh h4 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+main #carouselExampleCaptions .carousel-inner .carousel-item button {
+  margin-top: 20px;
+  background-color: #0663dd;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  width: 120px;
+}
+
+main #carouselExampleCaptions .carousel-inner .container table thead {
+  background-color: #6275bb;
+}
+
+main #carouselExampleCaptions .carousel-inner .container table thead .text-one {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+main #carouselExampleCaptions .carousel-inner .container table tr {
+  font-weight: bold;
+}
+
+main #carouselExampleCaptions .carousel-inner .container table .projeh-onvan .text-projeh {
+  font-weight: bold;
+  text-align: center;
+}
+
+main #carouselExampleCaptions .carousel-inner .container table .projeh-onvan .text-projeh a {
+  color: black;
+}
+
+main #carouselExampleCaptions .carousel-inner .container table .projeh-onvan .text-color {
+  color: #646363;
+  text-decoration: underline;
+}
+
+main #carouselExampleCaptions .img-c1 {
+  background-image: url("images/cc1.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+main #carouselExampleCaptions .program {
+  position: relative;
+  bottom: 200px;
+}
+
+main #carouselExampleCaptions .img-book {
+  background-image: url("images/tahsili-bac.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main #carouselExampleCaptions .img-book-2 {
+  background-image: url("images/mcse.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main #carouselExampleCaptions .text-tahsil {
+  color: black;
+}
+
+main #carouselExampleCaptions .tahsili {
+  width: 500px;
+}
+
+main #carouselExampleCaptions audio::-webkit-media-controls-play-button,
+main #carouselExampleCaptions audio::-webkit-media-controls-panel {
+  background-color: #4066a0;
+  color: #a0276e;
+}
+
+main #carouselExampleCaptions audio {
+  width: 100%;
+  height: 54px;
+}
+
+main #carouselExampleCaptions #tahsili .nav {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #313030;
+  font-family: IranNastaliq, "IranNastaliq", tahoma;
+}
+
+main #carouselExampleCaptions #tahsil-row .card-header {
+  background-color: rgba(236, 235, 233, 0.932);
+  color: #353434;
+}
+
+main #carouselExampleCaptions #tahsil-row .card-header h5 {
+  font-weight: bold;
+}
+
+main #carouselExampleCaptions #tahsil-row .card-body {
+  color: #252525;
+  font-weight: bold;
+}
+
+main #carouselExampleCaptions #tahsil-row .card-body a {
+  font-weight: bold;
+}
+
+main #carouselExampleCaptions #tahsil-row .card-footer {
+  font-size: 1em;
+  color: #2e2d2d;
+  font-weight: bold;
+  background-color: rgba(236, 235, 233, 0.932);
+}
+
+main #carouselExampleCaptions .disk {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  top: 30px;
+  border-radius: 3%;
+}
+
+main #carouselExampleCaptions .disk:hover {
+  cursor: pointer;
+}
+
+main #carouselExampleCaptions .text-varzeshi {
+  position: relative;
+  bottom: 350px;
+}
+
+main #carouselExampleCaptions #nav-varzeshi a {
+  font-weight: bolder;
+  border: 1px solid #e9e6e6;
+  color: black;
+  font-size: 20px;
+}
+
+main #carouselExampleCaptions .partab {
+  position: relative;
+  top: 30px;
+  color: #000000;
+  font-weight: bold;
+  width: 100%;
+}
+
+main #carouselExampleCaptions .text-varzeshi {
+  position: relative;
+  bottom: 400px;
+}
+
+main #carouselExampleCaptions .text-varzeshi h3 {
+  font-weight: bold;
+}
+
+main #carouselExampleCaptions .modal-content {
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  main #carouselExampleCaptions #myModa79 .pic5,
+  main #carouselExampleCaptions #myModa80 .pic5 {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  main #carouselExampleCaptions #myModa79 .pic5,
+  main #carouselExampleCaptions #myModa80 .pic5 {
+    width: 750px;
+    height: auto;
+    border-radius: 15px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  main #carouselExampleCaptions #myModa40 .pic10 {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  main #carouselExampleCaptions #myModa40 .pic10 {
+    width: 750px;
+    height: auto;
+    border-radius: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
